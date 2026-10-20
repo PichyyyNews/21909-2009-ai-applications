@@ -18,6 +18,7 @@
 - [📅 แผนการจัดการเรียนรู้ 18 สัปดาห์ (72 ชม.)](curriculum/แผนการจัดการเรียนรู้-18-สัปดาห์.md)
 - [📑 บทเรียนที่ 1: ความรู้พื้นฐานปัญญาประดิษฐ์ (AI คืออะไร มาจากไหน ประวัติศาสตร์)](lessons/01-ความรู้พื้นฐานปัญญาประดิษฐ์.md)
 - [📑 บทเรียนที่ 2: การใช้งาน LLM พื้นฐาน (Token, Hallucination, Context Window, Memory & System Prompt)](lessons/02-การใช้-LLM-พื้นฐาน.md)
+- [💡 บทความสั้น: 5 ลำดับขั้นของผู้ใช้ AI (From Asking to Orchestrating + แบบประเมินตนเอง)](articles/บทความ-5-ลำดับขั้นของผู้ใช้-AI.md)
 - [📥 โครงการสอนทางการ (PDF ฉบับพิมพ์)](documents/โครงการสอน%2021909-2009%20การใช้งานแอปพลิเคชันปัญญาประดิษฐ์.pdf)
 - [📝 โครงการสอนทางการ (DOCX ฉบับแก้ไข)](documents/โครงการสอน%2021909-2009%20การใช้งานแอปพลิเคชันปัญญาประดิษฐ์.docx)
 
@@ -65,7 +66,7 @@
 
 | หน่วยที่ | ชื่อหน่วยการเรียนรู้ | สัปดาห์ | ชั่วโมง | สาระสำคัญและเครื่องมือที่ใช้ | เอกสารบทเรียน |
 | :---: | :--- | :---: | :---: | :--- | :--- |
-| **1** | ความรู้พื้นฐานเกี่ยวกับ AI และโมเดลภาษาขนาดใหญ่ (LLMs) | 1–2 | 6 | ประวัติศาสตร์ AI, 4 เสาหลักนิยาม, Dartmouth 1956, GenAI, Token, Hallucination, Context Window, Memory & System Prompt | [บทที่ 1](lessons/01-ความรู้พื้นฐานปัญญาประดิษฐ์.md) · [บทที่ 2](lessons/02-การใช้-LLM-พื้นฐาน.md) |
+| **1** | ความรู้พื้นฐานเกี่ยวกับ AI และโมเดลภาษาขนาดใหญ่ (LLMs) | 1–2 | 6 | ประวัติศาสตร์ AI, 4 เสาหลักนิยาม, Dartmouth 1956, GenAI, Token, Hallucination, Context Window, Memory & System Prompt, 5 ระดับผู้ใช้ AI | [บทที่ 1](lessons/01-ความรู้พื้นฐานปัญญาประดิษฐ์.md) · [บทที่ 2](lessons/02-การใช้-LLM-พื้นฐาน.md) · [บทความ 5 ลำดับขั้น](articles/บทความ-5-ลำดับขั้นของผู้ใช้-AI.md) |
 | **2** | โครงสร้างและทฤษฎี Context (Tokens, Context Window & Limits) | 2–3 | 6 | กลไก Tokenization, Byte-Pair Encoding, บริบทและความจำ, Needle in a Haystack | กำลังจัดเตรียม |
 | **3** | เทคนิคการสั่งการและวิศวกรรมคำสั่ง (Prompt Engineering) | 4–5 | 8 | Zero-shot, Few-shot, Chain-of-Thought, System Prompt, Structured Output (JSON) | กำลังจัดเตรียม |
 | **4** | เวกเตอร์ความหมายและการค้นคืนข้อมูล (Embeddings, Vector Search & RAG) | 6–7 | 8 | Vector Space, Cosine Similarity, สถาปัตยกรรม Retrieval-Augmented Generation | กำลังจัดเตรียม |
@@ -92,6 +93,9 @@
 ├── lessons/                                # คลังเนื้อหาบทเรียนทฤษฎีและปฏิบัติ
 │   ├── 01-ความรู้พื้นฐานปัญญาประดิษฐ์.md    # บทที่ 1: AI คืออะไร มาจากไหน และวิวัฒนาการ
 │   └── 02-การใช้-LLM-พื้นฐาน.md             # บทที่ 2: Token, Hallucination, Context, Memory, System Prompt
+│
+├── articles/                               # บทความสั้นอ่านประกอบและเปิดวงอภิปราย
+│   └── บทความ-5-ลำดับขั้นของผู้ใช้-AI.md     # 5 ระดับผู้ใช้ AI (Asker -> Prompter -> Customizer -> Builder -> Orchestrator)
 │
 └── documents/                              # เอกสารทางการประกอบการสอน
     ├── โครงการสอน 21909-2009 การใช้งานแอปพลิเคชันปัญญาประดิษฐ์.pdf
