@@ -16,7 +16,8 @@
 
 - [📖 ข้อมูลรายวิชาและคำอธิบายหลักสูตร](curriculum/ข้อมูลรายวิชา-21909-2009.md)
 - [📅 แผนการจัดการเรียนรู้ 18 สัปดาห์ (72 ชม.)](curriculum/แผนการจัดการเรียนรู้-18-สัปดาห์.md)
-- [📑 บทเรียนที่ 1: ความรู้พื้นฐานปัญญาประดิษฐ์ (600+ บรรทัด ครบถ้วน)](lessons/01-ความรู้พื้นฐานปัญญาประดิษฐ์.md)
+- [📑 บทเรียนที่ 1: ความรู้พื้นฐานปัญญาประดิษฐ์ (AI คืออะไร มาจากไหน ประวัติศาสตร์)](lessons/01-ความรู้พื้นฐานปัญญาประดิษฐ์.md)
+- [📑 บทเรียนที่ 2: การใช้งาน LLM พื้นฐาน (Token, Hallucination, Context Window, Memory & System Prompt)](lessons/02-การใช้-LLM-พื้นฐาน.md)
 - [📥 โครงการสอนทางการ (PDF ฉบับพิมพ์)](documents/โครงการสอน%2021909-2009%20การใช้งานแอปพลิเคชันปัญญาประดิษฐ์.pdf)
 - [📝 โครงการสอนทางการ (DOCX ฉบับแก้ไข)](documents/โครงการสอน%2021909-2009%20การใช้งานแอปพลิเคชันปัญญาประดิษฐ์.docx)
 
@@ -62,17 +63,17 @@
 [สัปดาห์ 16–18: Final Capstone Project] ◄── [สัปดาห์ 10–15: Skills & AI Agents] ◄── [สัปดาห์ 8–9: OpenCode & APIs]
 ```
 
-| หน่วยที่ | ชื่อหน่วยการเรียนรู้ | สัปดาห์ | ชั่วโมง | สาระสำคัญและเครื่องมือที่ใช้ |
-| :---: | :--- | :---: | :---: | :--- |
-| **1** | ความรู้พื้นฐานเกี่ยวกับ AI และโมเดลภาษาขนาดใหญ่ (LLMs) | 1–2 | 6 | ประวัติศาสตร์ AI, 4 เสาหลักนิยาม, Dartmouth 1956, GenAI, ChatGPT & Gemini |
-| **2** | โครงสร้างและทฤษฎี Context (Tokens, Context Window & Limits) | 2–3 | 6 | กลไก Tokenization, Byte-Pair Encoding, บริบทและความจำ, Hallucination |
-| **3** | เทคนิคการสั่งการและวิศวกรรมคำสั่ง (Prompt Engineering) | 4–5 | 8 | Zero-shot, Few-shot, Chain-of-Thought, System Prompt, Structured Output (JSON) |
-| **4** | เวกเตอร์ความหมายและการค้นคืนข้อมูล (Embeddings, Vector Search & RAG) | 6–7 | 8 | Vector Space, Cosine Similarity, สถาปัตยกรรม Retrieval-Augmented Generation |
-| **5** | เครื่องมือพัฒนา AI และคลาวด์โมเดลฟรี (OpenCode & Cloud Free Models) | 8–9 | 8 | OpenCode CLI, Google AI Studio (Gemini 2.5), Groq Cloud API, Ollama (Local LLM) |
-| **6** | ทักษะส่วนขยายและการเรียกใช้เครื่องมือภายนอก (Context Skills & Tool Calling) | 10–11 | 8 | Function / Tool Calling, JSON Schema, Custom Skills พัฒนาต่อยอด |
-| **7** | ปัญญาประดิษฐ์อัตโนมัติ (Autonomous Agents & Multi-Agent Architecture) | 12–13 | 8 | วงจรการทำงานของ Agent (Perceive-Plan-Act), Multi-Agent Collaboration |
-| **8** | ชุดทดสอบและประเมินผลเอเจนต์ (Agent Harness & Performance Evaluation) | 14–15 | 8 | มาตรวัดความแม่นยำ Benchmark, Regression Testing, Cost & Latency Optimization |
-| **9** | โครงงานประยุกต์ใช้ AI ในงานอาชีพ (Specialized Agent Capstone Project) | 16–18 | 12 | พัฒนา Agent ใช้งานจริงในงานช่าง, ทดสอบ, จัดทำเอกสาร และนำเสนอผลงาน |
+| หน่วยที่ | ชื่อหน่วยการเรียนรู้ | สัปดาห์ | ชั่วโมง | สาระสำคัญและเครื่องมือที่ใช้ | เอกสารบทเรียน |
+| :---: | :--- | :---: | :---: | :--- | :--- |
+| **1** | ความรู้พื้นฐานเกี่ยวกับ AI และโมเดลภาษาขนาดใหญ่ (LLMs) | 1–2 | 6 | ประวัติศาสตร์ AI, 4 เสาหลักนิยาม, Dartmouth 1956, GenAI, Token, Hallucination, Context Window, Memory & System Prompt | [บทที่ 1](lessons/01-ความรู้พื้นฐานปัญญาประดิษฐ์.md) · [บทที่ 2](lessons/02-การใช้-LLM-พื้นฐาน.md) |
+| **2** | โครงสร้างและทฤษฎี Context (Tokens, Context Window & Limits) | 2–3 | 6 | กลไก Tokenization, Byte-Pair Encoding, บริบทและความจำ, Needle in a Haystack | กำลังจัดเตรียม |
+| **3** | เทคนิคการสั่งการและวิศวกรรมคำสั่ง (Prompt Engineering) | 4–5 | 8 | Zero-shot, Few-shot, Chain-of-Thought, System Prompt, Structured Output (JSON) | กำลังจัดเตรียม |
+| **4** | เวกเตอร์ความหมายและการค้นคืนข้อมูล (Embeddings, Vector Search & RAG) | 6–7 | 8 | Vector Space, Cosine Similarity, สถาปัตยกรรม Retrieval-Augmented Generation | กำลังจัดเตรียม |
+| **5** | เครื่องมือพัฒนา AI และคลาวด์โมเดลฟรี (OpenCode & Cloud Free Models) | 8–9 | 8 | OpenCode CLI, Google AI Studio (Gemini 2.5), Groq Cloud API, Ollama (Local LLM) | กำลังจัดเตรียม |
+| **6** | ทักษะส่วนขยายและการเรียกใช้เครื่องมือภายนอก (Context Skills & Tool Calling) | 10–11 | 8 | Function / Tool Calling, JSON Schema, Custom Skills พัฒนาต่อยอด | กำลังจัดเตรียม |
+| **7** | ปัญญาประดิษฐ์อัตโนมัติ (Autonomous Agents & Multi-Agent Architecture) | 12–13 | 8 | วงจรการทำงานของ Agent (Perceive-Plan-Act), Multi-Agent Collaboration | กำลังจัดเตรียม |
+| **8** | ชุดทดสอบและประเมินผลเอเจนต์ (Agent Harness & Performance Evaluation) | 14–15 | 8 | มาตรวัดความแม่นยำ Benchmark, Regression Testing, Cost & Latency Optimization | กำลังจัดเตรียม |
+| **9** | โครงงานประยุกต์ใช้ AI ในงานอาชีพ (Specialized Agent Capstone Project) | 16–18 | 12 | พัฒนา Agent ใช้งานจริงในงานช่าง, ทดสอบ, จัดทำเอกสาร และนำเสนอผลงาน | กำลังจัดเตรียม |
 
 ---
 
@@ -89,7 +90,8 @@
 │   └── แผนการจัดการเรียนรู้-18-สัปดาห์.md     # แผนหน่วยการเรียน 18 สัปดาห์ (72 ชั่วโมง)
 │
 ├── lessons/                                # คลังเนื้อหาบทเรียนทฤษฎีและปฏิบัติ
-│   └── 01-ความรู้พื้นฐานปัญญาประดิษฐ์.md    # บทที่ 1: AI คืออะไร มาจากไหน และวิวัฒนาการ
+│   ├── 01-ความรู้พื้นฐานปัญญาประดิษฐ์.md    # บทที่ 1: AI คืออะไร มาจากไหน และวิวัฒนาการ
+│   └── 02-การใช้-LLM-พื้นฐาน.md             # บทที่ 2: Token, Hallucination, Context, Memory, System Prompt
 │
 └── documents/                              # เอกสารทางการประกอบการสอน
     ├── โครงการสอน 21909-2009 การใช้งานแอปพลิเคชันปัญญาประดิษฐ์.pdf
