@@ -1,0 +1,12 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+# Obsidian local cache (if opened)
+.obsidian/
